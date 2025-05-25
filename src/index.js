@@ -1,9 +1,10 @@
-import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
-import dotenv from "dotenv";
-import fs from "fs";
-import { exec } from "child_process";
-import express from "express";
-import cron from "node-cron";
+const { S3Client, PutObjectCommand } = require("@aws-sdk/client-s3");
+
+const dotenv = require("dotenv");
+const fs = require("fs");
+const exec = require("child_process").exec;
+const cron = require("node-cron");
+const express = require("express");
 
 dotenv.config();
 
@@ -125,7 +126,4 @@ class MySqlS3Backup {
     }
 }
 
-if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
-    module.exports = MySqlS3Backup;
-} 
-export default MySqlS3Backup;
+ module.exports = MySqlS3Backup;

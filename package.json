@@ -1,10 +1,10 @@
 {
-  "name": "backupdbtos3",
-  "version": "1.0.7",
-  "description": "Backup Mysql DB to AWS S3",
+  "name": "backupdbtos3-commonjs",
+  "version": "1.0.0",
+  "description": "Backup Mysql DB to AWS S3 Using CommonJS",
   "main": "src/index.js",
   "bin": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

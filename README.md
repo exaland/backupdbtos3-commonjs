@@ -1,4 +1,4 @@
-# MySQL S3 Backup - Exaland Concept
+# MySQL S3 Backup (CommonJS) - Exaland Concept
 
 A simple library for backing up MySQL databases to AWS S3 using the AWS SDK. This package provides an easy way to create a database backup and store it securely in an S3 bucket.
 
@@ -47,7 +47,7 @@ WEBHOOK_PORT=3000  # (optionnel, port pour le webhook)
 ## Initialisation et 🚀
 
 ```javascript
-import MySqlS3Backup from "backupdbtos3"; 
+const MySqlS3Backup = require("backupdbtos3-commonjs");
 
 // Avec planification automatique (par défaut tous les jours à 2h)
 const backup = new MySqlS3Backup();
@@ -89,7 +89,7 @@ Pour automatiser le lancement de sauvegardes à distance ou via une plateforme t
 1. Démarrez votre script principal, qui initialise la classe et démarre le serveur webhook :
 
 ```javascript
-import MySqlS3Backup from "backupdbtos3";
+const MySqlS3Backup = require("backupdbtos3-commonjs");
 
 const backup = new MySqlS3Backup();
 console.log("Webhook server is listening...");
