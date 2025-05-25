@@ -1,5 +1,4 @@
 const { S3Client, PutObjectCommand } = require("@aws-sdk/client-s3");
-
 const dotenv = require("dotenv");
 const fs = require("fs");
 const exec = require("child_process").exec;

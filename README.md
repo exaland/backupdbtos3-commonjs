@@ -7,7 +7,7 @@ A simple library for backing up MySQL databases to AWS S3 using the AWS SDK. Thi
 You can install this package via npm:
 
 ```bash
-npm install backupdbtos3
+npm install backupdbtos3-commonjs
 ```
 
 ## Configuration des Variables d'Environnement

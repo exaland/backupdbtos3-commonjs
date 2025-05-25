@@ -1,6 +1,6 @@
 {
   "name": "backupdbtos3-commonjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Backup Mysql DB to AWS S3 Using CommonJS",
   "main": "src/index.js",
   "bin": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/exaland/backupdbtos3.git"
+    "url": "https://github.com/exaland/backupdbtos3-commonjs.git"
   },
   "keywords": [
     "mysql",
