@@ -1,3 +1,5 @@
+[![Publish to npm](https://github.com/exaland/backupdbtos3-commonjs/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/exaland/backupdbtos3-commonjs/actions/workflows/npm-publish-github-packages.yml)
+
 # MySQL S3 Backup (CommonJS) - Exaland Concept
 
 A simple library for backing up MySQL databases to AWS S3 using the AWS SDK. This package provides an easy way to create a database backup and store it securely in an S3 bucket.
