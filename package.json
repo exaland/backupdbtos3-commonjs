@@ -1,6 +1,6 @@
 {
   "name": "backupdbtos3-commonjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Backup Mysql DB to AWS S3 Using CommonJS",
   "main": "src/index.js",
   "bin": "index.js",
